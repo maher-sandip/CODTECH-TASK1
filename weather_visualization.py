@@ -5,8 +5,8 @@ import seaborn as sns
 import streamlit as st
 
 # ------------------- Configuration -------------------
-API_KEY = "9c733c9de07f567605d91f14b6619445"  # Replace with your OpenWeatherMap API key
-CITY = "Nashik"  # Change to the desired city
+API_KEY = ""  # Replace with your OpenWeatherMap API key
+CITY = ""  # Change to the desired city
 URL = f"http://api.openweathermap.org/data/2.5/forecast?q={CITY}&units=metric&cnt=7&appid={API_KEY}"
 
 # ------------------- Fetch Weather Data -------------------
